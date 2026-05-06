@@ -62,11 +62,11 @@ We see three concurrent surfaces where Leverage Edu and Halcyon line up:
 
 We've put together **five proposal documents** — one focused on each surface, one shorter CEO memo framed for the IPO narrative, and one master deck combining all three. Each is fully designed, ~5–10 pages, and can be opened on any device:
 
-- **Volume I — The Alumni Engine** → https://NaitikJoshiPro.github.io/halcyon-leverage-outreach/proposals/v1-alumni-engine.html / [PDF](https://NaitikJoshiPro.github.io/halcyon-leverage-outreach/pdfs/Halcyon-Leverage-v1-alumni-engine.pdf)
-- **Volume II — The Employer Bundle** → https://NaitikJoshiPro.github.io/halcyon-leverage-outreach/proposals/v2-employer-bundle.html / [PDF](https://NaitikJoshiPro.github.io/halcyon-leverage-outreach/pdfs/Halcyon-Leverage-v2-employer-bundle.pdf)
-- **Volume III — The Diaspora Channel** → https://NaitikJoshiPro.github.io/halcyon-leverage-outreach/proposals/v3-diaspora-channel.html / [PDF](https://NaitikJoshiPro.github.io/halcyon-leverage-outreach/pdfs/Halcyon-Leverage-v3-diaspora-channel.pdf)
-- **Volume IV — The IPO Narrative (CEO memo, 5 pages)** → https://NaitikJoshiPro.github.io/halcyon-leverage-outreach/proposals/v4-ipo-narrative.html / [PDF](https://NaitikJoshiPro.github.io/halcyon-leverage-outreach/pdfs/Halcyon-Leverage-v4-ipo-narrative.pdf)
-- **Volume V — Master Deck (all three surfaces, 10 pages)** → https://NaitikJoshiPro.github.io/halcyon-leverage-outreach/proposals/v5-master-deck.html / [PDF](https://NaitikJoshiPro.github.io/halcyon-leverage-outreach/pdfs/Halcyon-Leverage-v5-master-deck.pdf)
+- **Volume I — The Alumni Engine** → https://naitikjoshipro.github.io/halcyon-leverage-outreach/proposals/v1-alumni-engine.html / [PDF](https://naitikjoshipro.github.io/halcyon-leverage-outreach/pdfs/Halcyon-Leverage-v1-alumni-engine.pdf)
+- **Volume II — The Employer Bundle** → https://naitikjoshipro.github.io/halcyon-leverage-outreach/proposals/v2-employer-bundle.html / [PDF](https://naitikjoshipro.github.io/halcyon-leverage-outreach/pdfs/Halcyon-Leverage-v2-employer-bundle.pdf)
+- **Volume III — The Diaspora Channel** → https://naitikjoshipro.github.io/halcyon-leverage-outreach/proposals/v3-diaspora-channel.html / [PDF](https://naitikjoshipro.github.io/halcyon-leverage-outreach/pdfs/Halcyon-Leverage-v3-diaspora-channel.pdf)
+- **Volume IV — The IPO Narrative (CEO memo, 5 pages)** → https://naitikjoshipro.github.io/halcyon-leverage-outreach/proposals/v4-ipo-narrative.html / [PDF](https://naitikjoshipro.github.io/halcyon-leverage-outreach/pdfs/Halcyon-Leverage-v4-ipo-narrative.pdf)
+- **Volume V — Master Deck (all three surfaces, 10 pages)** → https://naitikjoshipro.github.io/halcyon-leverage-outreach/proposals/v5-master-deck.html / [PDF](https://naitikjoshipro.github.io/halcyon-leverage-outreach/pdfs/Halcyon-Leverage-v5-master-deck.pdf)
 
 If you only have time for one, the **Master Deck (Volume V)** is the cleanest read. If Akshay wants something shorter, the **CEO memo (Volume IV)** is a 5-page version framed around the IPO narrative.
 
@@ -110,11 +110,11 @@ We see three concurrent surfaces where Leverage and Halcyon line up:
 
 FIVE PROPOSAL DOCUMENTS (each focused on one angle):
 
-- Volume I — Alumni Engine: https://NaitikJoshiPro.github.io/halcyon-leverage-outreach/proposals/v1-alumni-engine.html
-- Volume II — Employer Bundle: https://NaitikJoshiPro.github.io/halcyon-leverage-outreach/proposals/v2-employer-bundle.html
-- Volume III — Diaspora Channel: https://NaitikJoshiPro.github.io/halcyon-leverage-outreach/proposals/v3-diaspora-channel.html
-- Volume IV — IPO Narrative (5-page CEO memo): https://NaitikJoshiPro.github.io/halcyon-leverage-outreach/proposals/v4-ipo-narrative.html
-- Volume V — Master Deck (10 pages, all three surfaces): https://NaitikJoshiPro.github.io/halcyon-leverage-outreach/proposals/v5-master-deck.html
+- Volume I — Alumni Engine: https://naitikjoshipro.github.io/halcyon-leverage-outreach/proposals/v1-alumni-engine.html
+- Volume II — Employer Bundle: https://naitikjoshipro.github.io/halcyon-leverage-outreach/proposals/v2-employer-bundle.html
+- Volume III — Diaspora Channel: https://naitikjoshipro.github.io/halcyon-leverage-outreach/proposals/v3-diaspora-channel.html
+- Volume IV — IPO Narrative (5-page CEO memo): https://naitikjoshipro.github.io/halcyon-leverage-outreach/proposals/v4-ipo-narrative.html
+- Volume V — Master Deck (10 pages, all three surfaces): https://naitikjoshipro.github.io/halcyon-leverage-outreach/proposals/v5-master-deck.html
 
 PDFs at the same paths under /pdfs/.
 

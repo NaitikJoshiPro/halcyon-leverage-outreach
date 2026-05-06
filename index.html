@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Halcyon × Leverage Edu — Outreach Package</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --navy-950:#060F18; --navy-900:#0C1D2B; --navy-800:#112436; --navy-700:#1A3A4F;
+    --navy-600:#22506A; --navy-500:#2A6080; --navy-400:#4A7A9F;
+    --gold-500:#B8953A; --gold-400:#D4AF60; --gold-600:#9A7520;
+    --cream:#FAFAF8; --parchment:#F2EFE9; --muted-dark:#7A95A5;
+  }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family:'Inter', system-ui, sans-serif;
+    color:#374151; background:#fff;
+    -webkit-font-smoothing:antialiased;
+  }
+  .hero-bg {
+    background-color: var(--navy-900);
+    background-image:
+      linear-gradient(rgba(184,149,58,0.045) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(184,149,58,0.045) 1px, transparent 1px);
+    background-size: 56px 56px;
+  }
+  .container { max-width: 80rem; margin: 0 auto; padding: 0 1.5rem; }
+  @media(min-width:1024px) { .container { padding: 0 2rem; } }
+
+  header {
+    position: sticky; top: 0; z-index: 50;
+    background: rgba(12,29,43,0.96);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--navy-800);
+  }
+  .nav-inner { display:flex; align-items:center; justify-content:space-between; height: 60px; }
+  .nav-logo { display:flex; align-items:center; gap:12px; text-decoration:none; }
+  .logo-mark {
+    width:32px; height:32px; background: var(--gold-500);
+    display:flex; align-items:center; justify-content:center;
+    font-size:13px; font-weight:900; color: var(--navy-950);
+  }
+  .logo-text { font-size:12px; font-weight:800; color:#fff; letter-spacing:0.5px; line-height:1.2; }
+  .logo-sub { font-size:9px; font-weight:600; letter-spacing:2px; text-transform:uppercase; color: var(--gold-500); display:block; }
+  .nav-links { display:none; gap:28px; align-items:center; }
+  @media(min-width:768px) { .nav-links { display:flex; } }
+  .nav-links a {
+    font-size:11px; font-weight:600; color: var(--muted-dark); text-decoration:none;
+    letter-spacing:0.5px; transition: color 0.15s;
+  }
+  .nav-links a:hover { color:#fff; }
+
+  /* Hero */
+  .hero { padding: 96px 0 80px; color:#fff; }
+  .tag {
+    display:inline-flex; align-items:center; gap:8px;
+    border:1px solid rgba(184,149,58,0.35);
+    padding:6px 14px;
+    font-size:9.5px; font-weight:800; letter-spacing:2.5px; text-transform:uppercase;
+    color: var(--gold-500); margin-bottom:24px;
+  }
+  .pulse { width:6px; height:6px; background: var(--gold-500); border-radius:50%; animation: pulse 2.5s ease-in-out infinite; }
+  @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }
+  .hero h1 {
+    font-size: clamp(2.4rem, 5vw, 4.4rem);
+    font-weight: 900; line-height: 1.04;
+    letter-spacing: -1.5px;
+    margin-bottom: 22px;
+    color: #fff;
+  }
+  .hero h1 em { font-style: normal; color: var(--gold-500); }
+  .hero p {
+    font-size: 16px; line-height: 1.7;
+    color: var(--muted-dark);
+    max-width: 50rem; margin-bottom: 30px;
+  }
+  .kpis {
+    display:grid; grid-template-columns: repeat(2, 1fr); gap:1px;
+    background: rgba(255,255,255,0.06);
+    margin-top: 36px;
+  }
+  @media(min-width:640px) { .kpis { grid-template-columns: repeat(4, 1fr); } }
+  .kpi { background: var(--navy-900); padding: 22px 20px; }
+  .kpi-val { font-size: 32px; font-weight:900; color:#fff; line-height:1; margin-bottom:6px; letter-spacing:-1px; }
+  .kpi-val .gold { color: var(--gold-500); }
+  .kpi-lbl { font-size:9.5px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color: var(--muted-dark); }
+
+  /* Section */
+  section.light-section { padding: 96px 0; background: #fff; }
+  section.cream-section { padding: 96px 0; background: var(--cream); }
+  .section-label {
+    font-size: 9.5px; font-weight: 800; letter-spacing: 4px; text-transform: uppercase;
+    color: var(--gold-500); margin-bottom: 14px;
+  }
+  .section-label.light { color: var(--gold-600); }
+  .gold-divider { width: 48px; height: 2px; background: var(--gold-500); margin-bottom: 20px; }
+  .gold-divider.light { background: var(--gold-500); }
+  h2.section-h2 {
+    font-size: clamp(2rem, 4.2vw, 3.2rem);
+    font-weight: 900; line-height: 1.06;
+    letter-spacing: -0.8px;
+    color: var(--navy-900);
+    margin-bottom: 24px;
+  }
+  h2.section-h2 em { font-style:normal; color: var(--gold-500); }
+  p.section-body {
+    font-size: 15px; line-height: 1.7; color: #6b7280;
+    max-width: 50rem; margin-bottom: 40px;
+  }
+
+  /* Proposal cards */
+  .proposals-grid { display: grid; grid-template-columns: 1fr; gap: 1px; background: #e5e7eb; }
+  @media(min-width:768px) { .proposals-grid { grid-template-columns: 1fr 1fr; } }
+  .proposal-card {
+    background: #fff;
+    padding: 36px 32px;
+    transition: background 0.2s ease, transform 0.2s ease;
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+    display: flex; flex-direction: column;
+    border-bottom: 2px solid transparent;
+  }
+  .proposal-card:hover {
+    background: var(--cream);
+    border-bottom-color: var(--gold-500);
+  }
+  .proposal-card.featured { background: var(--navy-900); color: #fff; }
+  .proposal-card.featured:hover { background: var(--navy-800); border-bottom-color: var(--gold-500); }
+  .vol-num {
+    font-size: 9.5px; font-weight: 800; letter-spacing: 3px; text-transform: uppercase;
+    color: var(--gold-600); margin-bottom: 8px;
+  }
+  .proposal-card.featured .vol-num { color: var(--gold-500); }
+  .proposal-title {
+    font-size: 22px; font-weight: 900; line-height: 1.15; letter-spacing: -0.4px;
+    color: var(--navy-900); margin-bottom: 12px;
+  }
+  .proposal-card.featured .proposal-title { color: #fff; }
+  .proposal-desc { font-size: 13px; line-height: 1.65; color: #6b7280; margin-bottom: 20px; flex: 1; }
+  .proposal-card.featured .proposal-desc { color: var(--muted-dark); }
+  .proposal-meta {
+    display: flex; align-items: center; gap: 16px;
+    font-size: 9.5px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase;
+    color: #9ca3af; margin-bottom: 16px;
+  }
+  .proposal-card.featured .proposal-meta { color: var(--navy-400); }
+  .proposal-meta .gold-dot { width: 4px; height: 4px; background: var(--gold-500); border-radius:50%; }
+  .proposal-actions { display: flex; gap: 14px; }
+  .proposal-actions a {
+    font-size: 10.5px; font-weight: 800; letter-spacing: 1.5px; text-transform: uppercase;
+    color: var(--gold-600); text-decoration: none;
+    border-bottom: 1px solid transparent; padding-bottom: 2px;
+    transition: border-color 0.15s, color 0.15s;
+  }
+  .proposal-actions a:hover { border-bottom-color: var(--gold-500); }
+  .proposal-card.featured .proposal-actions a { color: var(--gold-400); }
+  .proposal-card.featured .proposal-actions a:hover { color: var(--gold-300); border-bottom-color: var(--gold-400); }
+
+  /* Resources grid */
+  .resources-grid { display: grid; grid-template-columns: 1fr; gap: 24px; margin-top: 32px; }
+  @media(min-width:768px) { .resources-grid { grid-template-columns: 1fr 1fr 1fr; } }
+  .resource-card {
+    background: #fff; border: 1px solid #e5e7eb;
+    padding: 28px 26px;
+    transition: border-color 0.2s ease, transform 0.2s ease;
+    text-decoration: none; color: inherit;
+    display: flex; flex-direction: column;
+  }
+  .resource-card:hover { border-color: var(--gold-500); transform: translateY(-2px); }
+  .resource-eyebrow { font-size: 9px; font-weight: 800; letter-spacing: 2.5px; text-transform: uppercase; color: var(--gold-600); margin-bottom: 8px; }
+  .resource-title { font-size: 16px; font-weight: 900; color: var(--navy-900); margin-bottom: 6px; line-height: 1.25; }
+  .resource-desc { font-size: 12px; line-height: 1.65; color: #6b7280; }
+
+  /* Steps */
+  .steps-list { margin-top: 36px; counter-reset: step; }
+  .step {
+    display: grid; grid-template-columns: 64px 1fr; gap: 20px;
+    padding: 24px 0; border-bottom: 1px solid #e5e7eb;
+  }
+  .step-num {
+    background: var(--navy-900); color: var(--gold-500);
+    width: 48px; height: 48px;
+    display:flex; align-items:center; justify-content:center;
+    font-size: 14px; font-weight: 900; letter-spacing: 0.5px;
+  }
+  .step-body h3 { font-size: 14px; font-weight: 900; color: var(--navy-900); margin-bottom: 6px; letter-spacing: -0.1px; }
+  .step-body p { font-size: 12.5px; line-height: 1.7; color: #6b7280; }
+  .step-body code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    background: var(--cream); padding: 1px 6px;
+    font-size: 11.5px; color: var(--navy-900);
+  }
+
+  /* Footer */
+  footer {
+    background: var(--navy-950); padding: 32px 0; color: var(--navy-400);
+    border-top: 1px solid var(--navy-800);
+  }
+  .footer-inner { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:14px; }
+  .footer-copy { font-size: 11px; }
+  .footer-links { display:flex; gap: 18px; flex-wrap: wrap; }
+  .footer-links a { font-size: 11px; color: var(--navy-400); text-decoration: none; letter-spacing: 0.5px; transition: color 0.15s; }
+  .footer-links a:hover { color: var(--muted-dark); }
+
+  /* Disclaimer */
+  .disclaimer {
+    background: rgba(184,149,58,0.08);
+    border: 1px solid rgba(184,149,58,0.2);
+    border-left: 3px solid var(--gold-500);
+    padding: 16px 22px;
+    font-size: 12px; color: #6b7280; line-height: 1.7;
+    margin-top: 36px;
+  }
+  .disclaimer strong { color: var(--navy-900); }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <div class="nav-inner">
+      <a href="#top" class="nav-logo">
+        <div class="logo-mark">H</div>
+        <div class="logo-text">
+          Halcyon × Leverage Edu
+          <span class="logo-sub">Outreach Package · 2026</span>
+        </div>
+      </a>
+      <nav class="nav-links">
+        <a href="#proposals">Proposals</a>
+        <a href="#resources">Lead List · Email · Research</a>
+        <a href="#do-this">For Rushan</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<section class="hero hero-bg" id="top">
+  <div class="container">
+    <div class="tag"><span class="pulse"></span>Outreach Package · Confidential · Rushan Khan / Halcyon Medical Billing LLP</div>
+    <h1>A complete partnership pitch<br>to <em>Leverage Edu</em>, ready to send.</h1>
+    <p>
+      Five fixed-page proposal documents, a 30-contact lead list with verified email patterns,
+      a polished outreach email Rushan can send in five minutes, and the full research briefing
+      we built the pitch on. Everything below opens instantly and is hosted publicly so it can
+      be linked from inside the email body.
+    </p>
+    <div class="kpis">
+      <div class="kpi"><div class="kpi-val"><span class="gold">5</span></div><div class="kpi-lbl">Proposal Versions</div></div>
+      <div class="kpi"><div class="kpi-val"><span class="gold">30</span>+</div><div class="kpi-lbl">Named Leverage Contacts</div></div>
+      <div class="kpi"><div class="kpi-val"><span class="gold">10</span></div><div class="kpi-lbl">First-Wave Recipients</div></div>
+      <div class="kpi"><div class="kpi-val"><span class="gold">27</span> May</div><div class="kpi-lbl">Reply Deadline</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="light-section" id="proposals">
+  <div class="container">
+    <p class="section-label light">The five proposal versions</p>
+    <div class="gold-divider light"></div>
+    <h2 class="section-h2">Pick the angle that<br>fits the recipient.</h2>
+    <p class="section-body">
+      Each volume below is a fully-designed deck (US Letter landscape) that opens in any browser
+      and exports cleanly to PDF. Send the one that fits the recipient's role — or send the
+      Master Deck (Volume V) which combines all three angles.
+    </p>
+
+    <div class="proposals-grid">
+      <a class="proposal-card" href="proposals/v1-alumni-engine.html">
+        <div class="vol-num">Volume I</div>
+        <div class="proposal-title">The Alumni Engine</div>
+        <div class="proposal-desc">
+          Monetise the 155K+ Leverage alumni already embedded inside US clinics as a passive
+          referral channel. Strongest for partnerships and BD audiences.
+        </div>
+        <div class="proposal-meta">
+          <span><span class="gold-dot" style="display:inline-block;margin-right:6px;"></span>7 pages</span>
+          <span>·</span>
+          <span>Best for partnerships team</span>
+        </div>
+        <div class="proposal-actions">
+          <a href="proposals/v1-alumni-engine.html">Open HTML →</a>
+          <a href="pdfs/Halcyon-Leverage-v1-alumni-engine.pdf">Download PDF</a>
+        </div>
+      </a>
+
+      <a class="proposal-card" href="proposals/v2-employer-bundle.html">
+        <div class="vol-num">Volume II</div>
+        <div class="proposal-title">The Employer Bundle</div>
+        <div class="proposal-desc">
+          Bundle Halcyon's billing into every Leverage Careers conversation with a US clinic
+          hiring an Indian-trained nurse. Two revenue lines per employer call.
+        </div>
+        <div class="proposal-meta">
+          <span><span class="gold-dot" style="display:inline-block;margin-right:6px;"></span>7 pages</span>
+          <span>·</span>
+          <span>Best for Leverage Careers commercial</span>
+        </div>
+        <div class="proposal-actions">
+          <a href="proposals/v2-employer-bundle.html">Open HTML →</a>
+          <a href="pdfs/Halcyon-Leverage-v2-employer-bundle.pdf">Download PDF</a>
+        </div>
+      </a>
+
+      <a class="proposal-card" href="proposals/v3-diaspora-channel.html">
+        <div class="vol-num">Volume III</div>
+        <div class="proposal-title">The Diaspora Channel</div>
+        <div class="proposal-desc">
+          Co-marketing into ~125K Indian-American physicians who own US independent practices.
+          Halcyon eats 100% of the marketing spend. Best for the CMO.
+        </div>
+        <div class="proposal-meta">
+          <span><span class="gold-dot" style="display:inline-block;margin-right:6px;"></span>7 pages</span>
+          <span>·</span>
+          <span>Best for marketing audience</span>
+        </div>
+        <div class="proposal-actions">
+          <a href="proposals/v3-diaspora-channel.html">Open HTML →</a>
+          <a href="pdfs/Halcyon-Leverage-v3-diaspora-channel.pdf">Download PDF</a>
+        </div>
+      </a>
+
+      <a class="proposal-card" href="proposals/v4-ipo-narrative.html">
+        <div class="vol-num">Volume IV · CEO memo</div>
+        <div class="proposal-title">The IPO Narrative</div>
+        <div class="proposal-desc">
+          The shortest version — 5 pages — framed for Akshay and the CFO around the
+          ₹2,000–3,000 Cr IPO prep. Recurring B2B revenue, zero marginal cost.
+        </div>
+        <div class="proposal-meta">
+          <span><span class="gold-dot" style="display:inline-block;margin-right:6px;"></span>5 pages</span>
+          <span>·</span>
+          <span>Best for CEO / CFO</span>
+        </div>
+        <div class="proposal-actions">
+          <a href="proposals/v4-ipo-narrative.html">Open HTML →</a>
+          <a href="pdfs/Halcyon-Leverage-v4-ipo-narrative.pdf">Download PDF</a>
+        </div>
+      </a>
+
+      <a class="proposal-card featured" href="proposals/v5-master-deck.html" style="grid-column: 1 / -1;">
+        <div class="vol-num">Volume V · Recommended</div>
+        <div class="proposal-title">Master Deck — All three surfaces in one document</div>
+        <div class="proposal-desc">
+          Combines the Alumni Engine, Employer Bundle, and Diaspora Channel under one umbrella
+          agreement with combined economics. 10 pages. <strong style="color:#fff;">This is the version Rushan should attach
+          to the outreach email.</strong> If a recipient only opens one document, this is the one to land.
+        </div>
+        <div class="proposal-meta">
+          <span><span class="gold-dot" style="display:inline-block;margin-right:6px;"></span>10 pages</span>
+          <span>·</span>
+          <span>Recommended for first send</span>
+        </div>
+        <div class="proposal-actions">
+          <a href="proposals/v5-master-deck.html">Open HTML →</a>
+          <a href="pdfs/Halcyon-Leverage-v5-master-deck.pdf">Download PDF</a>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="cream-section" id="resources">
+  <div class="container">
+    <p class="section-label light">Everything else</p>
+    <div class="gold-divider light"></div>
+    <h2 class="section-h2">Lead list. Email draft.<br>Research briefing.</h2>
+    <p class="section-body">
+      The three working documents Rushan needs alongside the proposals.
+    </p>
+
+    <div class="resources-grid">
+      <a class="resource-card" href="leads/leverage-edu-contacts.csv">
+        <div class="resource-eyebrow">CSV · 30+ contacts</div>
+        <div class="resource-title">Leverage Edu Lead List →</div>
+        <div class="resource-desc">
+          30+ named individuals ranked by tier, with LinkedIn URLs, best-guess email addresses
+          based on the confirmed company pattern, and notes on each. Top 5 to put on the TO line
+          and 5 more for CC.
+        </div>
+      </a>
+
+      <a class="resource-card" href="email/email-rushan-to-leverage.md">
+        <div class="resource-eyebrow">Markdown · Ready to send</div>
+        <div class="resource-title">The Outreach Email →</div>
+        <div class="resource-desc">
+          The full email Rushan will send. Includes three subject-line options, the HTML body,
+          a plain-text fallback, the recipient list, and a 9-step follow-up plan with dates
+          through 30 May 2026.
+        </div>
+      </a>
+
+      <a class="resource-card" href="research/leverage-edu-briefing.md">
+        <div class="resource-eyebrow">Markdown · Research</div>
+        <div class="resource-title">The Research Briefing →</div>
+        <div class="resource-desc">
+          The full Leverage Edu briefing the proposals were built from — funding history,
+          IPO context, product lines, the TNSDC nursing pipeline, partner-program structure,
+          and the five partnership-fit angles with sources.
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="light-section" id="do-this">
+  <div class="container">
+    <p class="section-label light">For Rushan</p>
+    <div class="gold-divider light"></div>
+    <h2 class="section-h2">What to do next.</h2>
+    <p class="section-body">
+      The full step-by-step is in the README on the GitHub repo. Below is the 30-minute
+      condensed version.
+    </p>
+
+    <div class="steps-list">
+      <div class="step">
+        <div class="step-num">01</div>
+        <div class="step-body">
+          <h3>Read the email draft and skim the Master Deck.</h3>
+          <p>Open the email file above and the Master Deck (Volume V). Make sure you're comfortable owning every claim. Anything you'd word differently — flag it before sending.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">02</div>
+        <div class="step-body">
+          <h3>Verify the 10 email addresses.</h3>
+          <p>Drop them into Hunter.io's verifier or NeverBounce. The pattern is <code>firstname@leverageedu.com</code> for senior leadership, <code>firstname.lastname@leverageedu.com</code> for ICs. Anchor against <code>akshay@leverageedu.com</code> (confirmed working).</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">03</div>
+        <div class="step-body">
+          <h3>Compose in your email client.</h3>
+          <p>FROM: <code>outreach@halcyonmedbilling.com</code> · REPLY-TO: <code>rushan@halcyonmedbilling.com</code>. Attach <code>Halcyon-Leverage-v5-master-deck.pdf</code> directly. Keep the other 4 as links in the body — too many attachments looks like spam.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">04</div>
+        <div class="step-body">
+          <h3>Send Tuesday 12 May at 09:30 IST.</h3>
+          <p>That's 05:00 UTC, 06:00 BST, 19:00 ET prior-day. Lands in Delhi inboxes at start-of-day. Avoid Mondays (overflow) and Fridays (deferred).</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">05</div>
+        <div class="step-body">
+          <h3>Follow up Friday 22 May, then Tuesday 26 May.</h3>
+          <p>Same thread, reply-all, one-line bumps. Exact text in the email draft. After 27 May go to LinkedIn DMs to Anurag Kamandula and Shriya Raina specifically.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">06</div>
+        <div class="step-body">
+          <h3>If silent across all 10 by 30 May — fall to Tier 2.</h3>
+          <p>Re-send with the IPO Narrative (Volume IV) as the lead doc to: Aman Arora, Digvijay Gagneja, Aditya Arora, Bharti Singh, Sudipta Biswas. Different anchor, different audience, different shot.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="disclaimer">
+      <strong>Confidential & internal.</strong> This page is hosted publicly so the documents can be linked
+      from inside the outreach email body, but every proposal is marked confidential and is intended
+      only for the named recipient. Do not share the URL beyond the Halcyon team and the named
+      Leverage Edu recipients.
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-copy">© 2026 Halcyon Medical Billing LLP · HIPAA Compliant · Registered LLP</div>
+      <div class="footer-links">
+        <a href="mailto:rushan@halcyonmedbilling.com">rushan@halcyonmedbilling.com</a>
+        <a href="https://github.com/NaitikJoshiPro/halcyon-leverage-outreach">Source on GitHub</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
