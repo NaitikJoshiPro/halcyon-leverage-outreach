@@ -7,6 +7,13 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="_styles.css">
+<style>
+  /* Defeat shared cream alt-row rule when table sits on a dark page */
+  .dark-bg table.proposal-table tbody tr:nth-child(even) td,
+  .hero-bg table.proposal-table tbody tr:nth-child(even) td {
+    background: var(--navy-800) !important;
+  }
+</style>
 </head>
 <body>
 
@@ -256,7 +263,7 @@
     <div class="two-col">
       <div>
         <p class="body" style="margin-bottom:12px;">
-          Leverage has placed 155K+ students cumulatively, with a measurable cohort now embedded inside
+          Leverage has placed 155K+ students, a meaningful cohort of whom is now embedded inside
           US independent practices as RNs, NPs, residents, and partners. Halcyon's highest-converting
           channel is warm introduction &mdash; <strong>72%</strong> of US medical billing contracts are won
           through referrals. A nurse who has worked in a clinic for two years is the exact warm
@@ -427,12 +434,8 @@
     <div class="gold-divider"></div>
     <h2 class="page-h2 dark">Per practice<br>that signs &amp; stays.</h2>
     <p class="lead dark" style="max-width:9.2in;">
-      Halcyon doesn't pay channel partners a salary, retainer, or upfront fee.
-      The economics are 100% performance-based — they kick in only once a referred US practice
-      signs and pays its first invoice. <strong style="color:#fff;">25%</strong> of the practice's
-      first-month Halcyon fee, paid once. <strong style="color:#fff;">10%</strong> of every subsequent
-      monthly fee, recurring as long as the practice stays. No cap. No expiry. Per-practice math
-      below at INR/USD ₹94 (May 2026 spot).
+      No upfront, no retainer. <strong style="color:#fff;">25%</strong> of first-month Halcyon fee, paid once.
+      <strong style="color:#fff;">10%</strong> of every subsequent monthly fee, recurring. Math at INR/USD ₹94 spot:
     </p>
 
     <table class="proposal-table" style="background: var(--navy-800);">
@@ -447,7 +450,7 @@
         </tr>
       </thead>
       <tbody style="background: var(--navy-800); color: var(--muted-dark);">
-        <tr>
+        <tr style="background: var(--navy-800);">
           <td style="color:#fff;">Small primary care<br><span style="font-size:10px;color:#9ca3af;">$75K/mo collections</span></td>
           <td>$3,750</td>
           <td class="gold">$938 <span style="font-size:10px;color:#9ca3af;">(~₹88K)</span></td>
@@ -455,7 +458,7 @@
           <td class="big" style="color:#fff;">$5,063 <span style="font-size:10px;color:#9ca3af;">(~₹4.76L)</span></td>
           <td>$4,500 <span style="font-size:10px;color:#9ca3af;">(~₹4.23L)</span></td>
         </tr>
-        <tr>
+        <tr style="background: var(--navy-800);">
           <td style="color:#fff;">Mid-range<br><span style="font-size:10px;color:#9ca3af;">$130K/mo collections</span></td>
           <td>$6,500</td>
           <td class="gold">$1,625 <span style="font-size:10px;color:#9ca3af;">(~₹1.53L)</span></td>
@@ -463,7 +466,7 @@
           <td class="big" style="color:#fff;">$8,775 <span style="font-size:10px;color:#9ca3af;">(~₹8.25L)</span></td>
           <td>$7,800 <span style="font-size:10px;color:#9ca3af;">(~₹7.33L)</span></td>
         </tr>
-        <tr>
+        <tr style="background: var(--navy-800);">
           <td style="color:#fff;">Multi-specialty<br><span style="font-size:10px;color:#9ca3af;">$250K/mo collections</span></td>
           <td>$12,500</td>
           <td class="gold">$3,125 <span style="font-size:10px;color:#9ca3af;">(~₹2.94L)</span></td>
@@ -475,14 +478,9 @@
     </table>
 
     <div class="callout dark" style="margin-top:18px;">
-      <strong>What Leverage actually books = (practices that sign across all three surfaces) × (per-practice rev above).</strong>
-      We are not projecting a number of closes. The number above is what's structurally guaranteed once a practice signs and stays.
-      Recurring revenue, ~95% gross margin, zero CAC on Leverage's side — the highest-quality revenue line they could add for IPO disclosure.
+      <strong>Channel revenue = closes across all three surfaces × per-practice revenue above.</strong>
+      We're not projecting close counts. A "close" means a signed Halcyon MSA + first invoice paid. Recurring, ~95% gross margin, zero CAC on Leverage's side — the highest-quality line for IPO disclosure.
     </div>
-
-    <p class="tiny dark" style="margin-top:14px;">
-      <strong>What's a "close"?</strong> A US practice that signs a Halcyon MSA <em>and</em> has paid its first monthly invoice — at which point Halcyon issues the channel-commission ACH to Leverage. No commission on demos, MOUs, or unsigned proposals. <strong>Halcyon eats 100% of integration, marketing, and sales-execution cost across all three surfaces.</strong> INR/USD ₹94 (May 2026 spot).
-    </p>
   </div>
 
   <div class="page-footer">
@@ -509,8 +507,7 @@
     <div class="gold-divider"></div>
     <h2 class="page-h2">A 30-min joint scoping call.<br>Then a 90-day pilot.</h2>
     <p class="lead">
-      We'd like one 30-minute call with whichever of Akshay, Rachit, Sandeep, the CMO, and the
-      Head of Partnerships is right for the room. Halcyon brings Naitik (CEO), Rushan (CFO),
+      We'd like one 30-minute call with whichever owners on Leverage's side are right for the room. Halcyon brings Naitik (CEO), Rushan (CFO),
       and a one-page integration spec for each of the three surfaces. Decision out of the call
       &mdash; yes/no on a 90-day pilot, with the surface chosen by Leverage.
     </p>
@@ -588,7 +585,7 @@
 
     <div class="three-col" style="margin-top:14px;">
       <div class="feature-card" style="border-color: var(--gold-500); border-width:2px;">
-        <div class="num">CEO &amp; CTO · SENDER</div>
+        <div class="num">CEO &amp; CTO</div>
         <div class="title">Naitik Joshi <span style="color:var(--gold-500); font-weight:600; font-size:9px; letter-spacing:1.5px;">· SENDER</span></div>
         <div class="desc">Founder. Architected Halcyon's HIPAA portal, encryption layer, and the 12-step RCM workflow every client runs on. Will personally lead all technical demos.</div>
       </div>
@@ -597,8 +594,8 @@
         <div class="title">Ankit Chauhan</div>
         <div class="desc">Owns billing operations &amp; client onboarding. Handles every signed practice's first 90 days personally to protect the channel's retention KPIs.</div>
       </div>
-      <div class="feature-card" style="border-color: var(--gold-500); border-width:2px;">
-        <div class="num">CFO · SENDER</div>
+      <div class="feature-card">
+        <div class="num">CFO</div>
         <div class="title">Rushan Khan</div>
         <div class="desc">Owns commercial &amp; partnership economics. Direct counterpart for Leverage's Partnerships, BD, CFO, and CMO functions on this proposal. Reply to <strong style="color:var(--gold-400);">naitik@halcyonmedbilling.com</strong>.</div>
       </div>

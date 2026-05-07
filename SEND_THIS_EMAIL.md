@@ -61,7 +61,7 @@ Naitik Joshi, CEO and co-founder of Halcyon Medical Billing LLP. We run revenue-
 
 After the TNSDC nursing announcement, the FY26 numbers, and the Inc42 IPO-prep coverage, we put together a proposal — three commercial surfaces between Halcyon and Leverage where the unit economics line up. Attached. The numbers in it are per-practice, performance-based, with no upfront component on Leverage's side; the deck explains it.
 
-If it's worth 25 minutes, I'd prefer to do this in person — happy to come to Delhi between 14 and 26 May. Otherwise a call works (IST/GMT/ET, weekdays). Reply here or to naitik@halcyonmedbilling.com.
+If you'd like to talk, I'd prefer to do this in person — happy to come to Delhi. Otherwise a call works.
 
 — Naitik
 
