@@ -34,9 +34,22 @@ A B2B revenue line for Leverage's alumni + Leverage Careers — proposal attache
 
 ## Attachment
 
-`pdfs/Halcyon-Leverage-v5-master-deck.pdf`
+Drag this file into the Gmail compose window:
 
-(All other proposals are linked inside the body — don't attach all five.)
+```
+/Users/naitikjoshi/Downloads/halcyon-leverage-outreach/pdfs/Halcyon-Leverage-v5-master-deck.pdf
+```
+
+That's the only attachment. The four single-angle versions live at:
+
+```
+/Users/naitikjoshi/Downloads/halcyon-leverage-outreach/pdfs/Halcyon-Leverage-v1-alumni-engine.pdf
+/Users/naitikjoshi/Downloads/halcyon-leverage-outreach/pdfs/Halcyon-Leverage-v2-employer-bundle.pdf
+/Users/naitikjoshi/Downloads/halcyon-leverage-outreach/pdfs/Halcyon-Leverage-v3-diaspora-channel.pdf
+/Users/naitikjoshi/Downloads/halcyon-leverage-outreach/pdfs/Halcyon-Leverage-v4-ipo-narrative.pdf
+```
+
+Send those individually only if a specific recipient writes back asking for one angle.
 
 ---
 
@@ -62,24 +75,7 @@ We see three concurrent surfaces where Leverage Edu and Halcyon line up:
 
 3. Diaspora Channel — ~125K Indian-American physicians own and run US independent practices. Co-branded outreach into that segment closes at materially higher rates than cold. Halcyon eats 100% of the marketing spend.
 
-We've put together five proposal documents — one focused on each surface, one shorter CEO memo framed for the IPO narrative, and one master deck combining all three. Each is fully designed, 5–10 pages, opens on any device:
-
-Volume I — The Alumni Engine
-https://naitikjoshipro.github.io/halcyon-leverage-outreach/proposals/v1-alumni-engine.html
-
-Volume II — The Employer Bundle
-https://naitikjoshipro.github.io/halcyon-leverage-outreach/proposals/v2-employer-bundle.html
-
-Volume III — The Diaspora Channel
-https://naitikjoshipro.github.io/halcyon-leverage-outreach/proposals/v3-diaspora-channel.html
-
-Volume IV — The IPO Narrative (CEO memo, 5 pages)
-https://naitikjoshipro.github.io/halcyon-leverage-outreach/proposals/v4-ipo-narrative.html
-
-Volume V — Master Deck (all three surfaces, 10 pages, attached to this email)
-https://naitikjoshipro.github.io/halcyon-leverage-outreach/proposals/v5-master-deck.html
-
-If you only have time for one, the Master Deck is the cleanest read.
+I've attached the master deck — a 10-page document covering all three surfaces, the per-practice unit economics, the integration model, and the team. We also have shorter single-angle versions (alumni engine, employer bundle, diaspora channel, and a 5-page CEO memo framed for the IPO narrative) — happy to send any of those if a specific angle is the one that resonates.
 
 The ask is small: a 25-minute call before 27 May 2026, with whichever combination of partnerships, BD, CFO, or CMO is right for the room. I'll be on the call along with our CFO Rushan Khan, who handles commission economics and partner agreements end-to-end. Decision out of the call: yes/no on a 90-day pilot in one of the three surfaces, your pick. No exclusivity required, 30-day sunset clause either way, no upfront capital from Leverage's side.
 
